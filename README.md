@@ -1,12 +1,5 @@
-# Trailmix-tv
-This is the TV app for Trailmix - a sample video app using Samsung Multiscreen SDK.  You can read more about the Trailmix here - [link](https://github.com/MultiScreenSDK/trailmix-tv/blob/master/trailmix.md).
-
-
-## App URLs
-The latest TV and mobile web apps builds are hosted on AWS S3 and available here:
-- [TV](http://s3-us-west-1.amazonaws.com/dev-multiscreen-examples/examples/trailmix/tv/index.html)
-- [Mobile](http://s3-us-west-1.amazonaws.com/dev-multiscreen-examples/examples/trailmix/mobile/index.html)
-
+# Multiscreen TV app template using ReactJS
+A template repo to get started with Multiscreen TV apps using ReactJS.
 
 ## Getting Started
 The project utilizes ReactJS for components and BabelJS for ES6/React code compilation support.
@@ -47,6 +40,3 @@ Watches for src file changes and recompiles the needed files. This includes live
 ```bash
 $ gulp watch (available at http://localhost:3000/
 ```
-
-## Communication Protocol (Channel Events)
-Refer to this [document](https://github.com/MultiScreenSDK/trailmix-tv/blob/master/trailmix.md) for the communication protocol between TV host app and the mobile client apps.
